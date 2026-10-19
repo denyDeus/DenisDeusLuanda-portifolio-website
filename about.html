@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="bg-light">
+
+    <!-- Sticky Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-uppercase small fw-bold">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="container py-5">
+        
+        <!-- Bio Section -->
+        <section class="row align-items-center mb-5 bg-white p-4 rounded shadow-sm">
+            <div class="col-md-8">
+                <h1 class="fw-bold mb-3">About Who I Am</h1>
+                <p class="lead text-muted">Welcome to my professional background story.</p>
+                <p>Provide a detailed summary of your academic path here. Share what first drew your attention to tech or your chosen field of study, and highlight your long-term career aspirations.</p>
+                <p>Mention details about structural problem-solving methods you enjoy working on or any specialized areas you are focused on learning inside and outside the classroom.</p>
+            </div>
+        </section>
+
+        <!-- Education & Academic Table -->
+        <section class="bg-white p-4 rounded shadow-sm mb-5">
+            <h2 class="fw-bold mb-4"><i class="fa-solid fa-book text-primary me-2"></i>Education & Background</h2>
+            <div class="table-responsive">
+                <table class="table table-hover align-middle">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Institution</th>
+                            <th>Degree</th>
+                            <th>Key Coursework</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="fw-bold">University of Dar-es-Salaam</td>
+                            <td>Bachelor of Science in electronic science and communication</td>
+                            <td>Electronics and Communication Systems</td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold">Bugema University</td>
+                            <td>Bachelor of Science in software engineering</td>
+                            <td>Website Design and Development</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="bg-white p-4 rounded shadow-sm mb-5">
+            <h2 class="fw-bold mb-4"><i class="fa-solid fa-sliders text-success me-2"></i>Skills & Competencies</h2>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label class="fw-bold mb-1">HTML5 & CSS3</label>
+                    <div class="progress" style="height: 20px;">
+                        <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="fw-bold mb-1">Bootstrap 5 Framework</label>
+                    <div class="progress" style="height: 20px;">
+                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="fw-bold mb-1">JavaScript</label>
+                    <div class="progress" style="height: 20px;">
+                        <div class="progress-bar progress-bar-striped bg-warning text-dark" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="fw-bold mb-1">Teamwork & Communication</label>
+                    <div class="progress" style="height: 20px;">
+                        <div class="progress-bar progress-bar-striped bg-info text-dark" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests & Hobbies Section -->
+        <section class="bg-white p-4 rounded shadow-sm">
+            <h2 class="fw-bold mb-3"><i class="fa-solid fa-heart text-danger me-2"></i>Interests & Hobbies</h2>
+            <p class="text-muted">When I'm away from my computer screens and regular course work, I spend time exploring:</p>
+            <div class="d-flex flex-wrap gap-2">
+                <span class="badge bg-secondary p-2 fs-6">Outdoor Activities</span>
+                <span class="badge bg-secondary p-2 fs-6">Music</span>
+                <span class="badge bg-secondary p-2 fs-6">Technical Blogging</span>
+                <span class="badge bg-secondary p-2 fs-6">Playing basketball</span>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
+        <div class="container">
+            <div class="mb-3">
+                <a href="#" class="text-white me-3 fs-4"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="text-white me-3 fs-4"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="text-white fs-4"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="mb-2">
+                <a href="index.html" class="text-white-50 text-decoration-none me-2">Home</a> | 
+                <a href="about.html" class="text-white-50 text-decoration-none mx-2">About</a> | 
+                <a href="gallery.html" class="text-white-50 text-decoration-none mx-2">Gallery</a> | 
+                <a href="contact.html" class="text-white-50 text-decoration-none ms-2">Contact</a>
+            </div>
+            <p class="mb-0 text-white-50 small">&copy; 2026 Denis Deus Luanda. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
